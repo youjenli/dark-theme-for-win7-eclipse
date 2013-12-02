@@ -1,0 +1,193 @@
+; Copyright ?Microsoft Corp.
+
+[Theme]
+; Windows 7 - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=dark theme for eclipse
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-109
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-123
+
+; Network - SHIDI_MYNETWORK
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-25
+
+; Recycle Bin - SHIDI_RECYCLERFULL SHIDI_RECYCLER
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\system32\imageres.dll,-54
+Empty=%SystemRoot%\system32\imageres.dll,-55
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\cursors\aero_working.ani
+Arrow=%SystemRoot%\cursors\aero_arrow.cur
+Crosshair=
+Hand=%SystemRoot%\cursors\aero_link.cur
+Help=%SystemRoot%\cursors\aero_helpsel.cur
+IBeam=
+No=%SystemRoot%\cursors\aero_unavail.cur
+NWPen=%SystemRoot%\cursors\aero_pen.cur
+SizeAll=%SystemRoot%\cursors\aero_move.cur
+SizeNESW=%SystemRoot%\cursors\aero_nesw.cur
+SizeNS=%SystemRoot%\cursors\aero_ns.cur
+SizeNWSE=%SystemRoot%\cursors\aero_nwse.cur
+SizeWE=%SystemRoot%\cursors\aero_ew.cur
+UpArrow=%SystemRoot%\cursors\aero_up.cur
+Wait=%SystemRoot%\cursors\aero_busy.ani
+DefaultValue=Windows Aero
+Link=
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\dark eclipse\Wallpapers\Captain_Zero's_HDWallpack026.png
+TileWallpaper=0
+WallpaperStyle=6;2 means the image is stretched while 6 will fit the image to the screen
+;Pattern=;not using here
+
+[VisualStyles]
+Path=%SystemRoot%\Resources\Themes\dark eclipse\Concave 7.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+ColorizationColor=0X7298844C;0X7359718F
+Transparency=1
+Composition=1
+VisualStyleVersion=10
+
+[Control Panel\Colors]
+;Tutorial of control pane colors settings 
+;http://www.howtogeek.com/howto/24609/create-a-windows-7-theme-pack-from-scratch/
+ActiveTitle=10 36 106;TODO
+TitleText=217 217 217 ;window title text color
+InactiveTitleText=212 208 200
+InactiveTitle=128 128 128
+GradientActiveTitle=166 202 240 ;window title that display in gradient
+GradientInactiveTitle=192 192 192
+
+Background=166 202 240;TODO
+
+Hilight=80 80 80 ;Hilight=10 36 106 hilight line background default
+HilightText=245 131 32;HilightText=235 140 5;HilightText=255 255 255
+
+Window=45 45 45;Window=48 48 48;window background default
+WindowText=230 230 230;WindowText and mouse on hints of content assist
+WindowFrame=192 192 192;border color of a window
+
+ActiveBorder=38 38 38;border of application
+InactiveBorder=59 59 59;InactiveBorder=212 208 200
+
+;235 178 67 Åã²´½Å
+;235 140 5  «G½Å
+;231 112 65
+;245 131 32
+;246 146 60
+Scrollbar=212 208 200
+
+Menu=77 73 71;79 76 74;71 68 66;
+MenuText=255 255 255;ok
+AppWorkspace=128 128 128
+
+;MenuBar=
+;MenuHilight=
+;ButtonAlternateFace=
+HotTrackingColor=246 146 60;247 157 79;Links in eclipse preference settings
+
+ButtonText=255 255 255;ok
+ButtonHilight=72 71 70;75 74 73;80 79 78 scrollbar background
+ButtonLight=124 122 120
+ButtonFace=65 64 63;the border around menu ,scrollBar color, 
+;quick launch toolbar color and pullDownMenuItemIcon background
+
+ButtonShadow=37 35 34;40 38 37;42 41 39;ButtonShadow includes Inactive PullDownMenuText, 
+;pull down menu horizontal line, pullDownMenuItemIconBorder,
+;color of fonts of disabled field and description in preference window
+;and shadow of concave bar like junit progress bar so it must be darker then 51 51 51 
+;inorder looks harmony with dark juno theme
+ButtonDKShadow=26 25 25;34 33 32;Button darker shadow and shadow of pullDownMenu
+
+GrayText=144 144 144;192 192 192
+InfoText=221 221 223;216 216 218;211 211 213;206 206 208;200 200 203;198 198 200;195 195 198;228 230 231;225 227 229;47 53 75;53 60 85;62 61 87;
+InfoWindow=73 73 76;75 75 78;67 67 70;55 55 57;47 51 55;161 168 196;183 188 210;192 197 216;193 192 211;255 255 225 ;float up hints
+
+[Control Panel\Desktop\WindowMetrics]
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=DABJDKT
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=Tinker
+
+[AppEvents\Schemes\Apps\.Default\.Default]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Ding.wav
+[AppEvents\Schemes\Apps\.Default\ChangeTheme]
+DefaultValue=
+[AppEvents\Schemes\Apps\.Default\CriticalBatteryAlarm]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Battery Critical.wav
+[AppEvents\Schemes\Apps\.Default\DeviceConnect]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Hardware Insert.wav
+[AppEvents\Schemes\Apps\.Default\DeviceDisconnect]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Hardware Remove.wav
+[AppEvents\Schemes\Apps\.Default\DeviceFail]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Hardware Fail.wav
+[AppEvents\Schemes\Apps\.Default\FaxBeep]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Notify.wav
+[AppEvents\Schemes\Apps\.Default\LowBatteryAlarm]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Battery Low.wav
+[AppEvents\Schemes\Apps\.Default\MailBeep]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Notify.wav
+[AppEvents\Schemes\Apps\.Default\Maximize]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Restore.wav
+[AppEvents\Schemes\Apps\.Default\MenuCommand]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Menu Command.wav
+[AppEvents\Schemes\Apps\.Default\Minimize]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Minimize.wav
+[AppEvents\Schemes\Apps\.Default\PrintComplete]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Print Complete.wav
+[AppEvents\Schemes\Apps\.Default\RestoreDown]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Minimize.wav
+[AppEvents\Schemes\Apps\.Default\RestoreUp]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Restore.wav
+[AppEvents\Schemes\Apps\.Default\SystemAsterisk]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Error.wav
+[AppEvents\Schemes\Apps\.Default\SystemExclamation]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Exclamation.wav
+[AppEvents\Schemes\Apps\.Default\SystemExit]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Shutdown.wav
+[AppEvents\Schemes\Apps\.Default\SystemHand]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Critical Stop.wav
+[AppEvents\Schemes\Apps\.Default\SystemNotification]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Balloon.wav
+[AppEvents\Schemes\Apps\.Default\SystemQuestion]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Exclamation.wav
+[AppEvents\Schemes\Apps\.Default\WindowsLogoff]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Logoff.wav
+[AppEvents\Schemes\Apps\.Default\WindowsLogon]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Logon.wav
+[AppEvents\Schemes\Apps\.Default\WindowsUAC]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows User Account Control.wav
+[AppEvents\Schemes\Apps\Explorer\BlockedPopup]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Pop-up Blocked.wav
+[AppEvents\Schemes\Apps\Explorer\EmptyRecycleBin]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Recycle.wav
+[AppEvents\Schemes\Apps\Explorer\FaxError]
+DefaultValue=
+[AppEvents\Schemes\Apps\Explorer\FaxLineRings]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Ringin.wav
+[AppEvents\Schemes\Apps\Explorer\FaxSent]
+DefaultValue=
+[AppEvents\Schemes\Apps\Explorer\FeedDiscovered]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Feed Discovered.wav
+[AppEvents\Schemes\Apps\Explorer\Navigating]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Navigation Start.wav
+[AppEvents\Schemes\Apps\Explorer\SecurityBand]
+DefaultValue=%SystemRoot%\Media\Schemes\Tinker\Windows Information Bar.wav
+
+[Slideshow]
+ImagesRootPIDL=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
+Interval=1200000
+Shuffle=1

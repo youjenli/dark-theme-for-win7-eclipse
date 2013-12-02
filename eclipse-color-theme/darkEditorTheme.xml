@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="2" name="Mtyjl3" modified="2013-10-05 00:00:45" author="Martin Lee" website="">
+    <searchResultIndication color="#464467" />
+    <filteredSearchResultIndication color="#3F3F6A" />
+    <occurrenceIndication color="#616161" />
+    <writeOccurrenceIndication color="#948567" />
+    <findScope color="#BCADAD" />
+    <sourceHoverBackground color="#A19879" />
+    <singleLineComment color="#7F9F7F" bold="false" />
+    <multiLineComment color="#7F9F7F" />
+    <commentTaskTag color="#ACC1AC" bold="false" />
+    <javadoc color="#B3B5AF" />
+    <javadocLink color="#A893CC" />
+    <javadocTag color="#9393CC" />
+    <javadocKeyword color="#CC9393" />
+    <class color="#CAE682" />
+    <interface color="#CAE682" />
+    <method color="#C0C0C0" /><!--  <method color="#DFBE95" /> --><!-- method execution -->
+    <methodDeclaration color="#C0C0C0" /><!-- <methodDeclaration color="#DFBE95" /> -->
+    <bracket color="#FFFFFF" /><!-- { } is a bracket, #FFFFFF is white -->
+    <number color="#8ACCCF" /><!-- numeric value in code -->
+    <string color="#CC9393" />
+    <operator color="#F0EFD0" />
+    <keyword color="#ab7611" /><!-- <keyword color="#EFEFAF" />--><!-- keyword = identifier -->
+    <annotation color="#808080" />
+    <staticMethod color="#C4C4B7" />
+    <localVariable color="#C0C0C0" /><!--  <localVariable color="#D4C4A9" /> -->
+    <localVariableDeclaration color="#C0C0C0" bold="false" /><!--  <localVariableDeclaration color="#D4C4A9" bold="false" />-->
+    <field color="#B3B784" bold="false" /><!-- fields are variable member of class without method and class -->
+    <staticField color="#93A2CC" bold="false" />
+    <staticFinalField color="#53DCCD" bold="false" />
+    <deprecatedMember color="#FFFFFF" bold="false" />
+    <background color="#333333" />
+    <foreground color="#F6F3E8" />
+    <currentLine color="#505050" />
+    <lineNumber color="#C0C0C0" /><!-- line number of text editor -->
+    <selectionBackground color="#898941" /><!-- selection is the line which cursor stands -->
+    <selectionForeground color="#000000" />
+</colorTheme>
