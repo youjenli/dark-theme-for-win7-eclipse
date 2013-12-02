@@ -2,7 +2,8 @@ dark-theme-for-win7-eclipse
 ===========================
 
 This is a one-stop solution to create a completely dark theme for eclipse in win7
-
+You can see what happened after I applied this win7 + eclipse ui + eclipse editor theme.
+https://plus.google.com/photos/114921213517944089128/albums/5952793008016527457
 
 
 In win 7 , it's difficult to find a dark win7 theme that suits perfectly for eclipse dark ui theme such as Dark juno 
